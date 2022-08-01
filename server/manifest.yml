@@ -1,11 +1,11 @@
 applications:
-  - name: djangoapp
+  - name: jahnvi
     routes:
-      - route: innovacar.mybluemix.net
+      - route: jahnvi.eu-gb.mybluemix.net
     memory: 128M
     buildpack: python_buildpack
-  - name: djangoapp-nginx
+  - name: jahnvi-nginx
     routes:
-      - route: innovacar.mybluemix.net/static
+      - route: jahnvi.eu-gb.mybluemix.net/static
     memory: 128M
     buildpack: staticfile_buildpack
